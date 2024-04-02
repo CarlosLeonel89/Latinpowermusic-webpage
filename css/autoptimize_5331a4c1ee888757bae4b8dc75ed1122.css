@@ -16987,7 +16987,7 @@ img {
 
 .btn,.newsletter-container .ae-cform-container .ae-cform-item-submit-button,.page-tour #tour .my-city-link,.page-tour #tour .track-link {
     padding: 20px;
-    background: rgba(255,255,255,.1);
+    background: rgb(0, 0, 0);
     color: #fff;
     font-weight: 900;
     font-size: 18px;
