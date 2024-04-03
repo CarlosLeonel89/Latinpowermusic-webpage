@@ -17376,7 +17376,7 @@ img {
     overflow: hidden;
     border-radius: 10px;
     -webkit-filter: grayscale(0.5);
-    filter: grayscale(0.5);
+    filter: brightness(0.5);
     transition: all .3s ease
 }
 
