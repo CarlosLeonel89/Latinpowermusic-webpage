@@ -38706,3 +38706,14 @@ span.iti__dial-code {
     margin-top: 1em;
     margin-bottom: 1em
 }
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ajusta la altura según sea necesario */
+}
+iframe {
+    width: 800px; /* Cambia según sea necesario */
+    height: 600px; /* Cambia según sea necesario */
+    border: 0;
+}
