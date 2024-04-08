@@ -1,0 +1,163 @@
+/********************************************************************
+*********************************************************************
+
+	Mike Rosas (c) 2010
+	mikzael[at]hotmail.com
+ 
+*********************************************************************
+********************************************************************/
+
+
+
+/* SIDEBAR *********************************************************/
+
+
+.indent
+	{
+		padding-left: 20px;
+	}
+
+.bold
+	{
+		font-weight: bold;
+		color: #00f;	
+	}
+	
+.left h2
+	{
+		background-color: #eee;
+		width: 80%;
+		padding: 5px 10px 2px 10px;
+		border-bottom: 3px solid #ddd;
+	}
+
+#informes .main
+	{
+		background-color: #fff;
+		height-min: 400px;
+		font-size: 13px;
+	}
+	
+	#informes .main > h1
+		{
+			background-color: #f48120;
+			float: right;
+			line-height: 30px;
+			font-size: 14px;
+			color: #fff;
+			width: 200px;
+			margin: 20px 0;
+			padding: 0 10px;
+		}
+	
+	#informes .main div.contenido
+		{
+			padding: 20px;
+		}
+	
+		#informes .main div.contenido div.left,
+		#informes .main div.contenido div.right
+			{
+				float: left;
+			}
+	
+		#informes .main div.contenido div.left
+			{
+				/*background-color: #f0f0f0;*/
+				width: 35%;
+				line-height: 18px;
+			}
+			
+		#informes .main div.contenido div.right
+			{
+				/*background-color: #e0e0e0;*/
+				width: 65%;
+			}
+	
+			#informes .main div.contenido div p,
+			#informes .main div.contenido div h2
+				{
+					margin-bottom: 20px;
+				}
+				
+			#informes .main div.contenido div h2,
+			#informes .main div.contenido div h3
+				{
+					font-weight: bold;
+				}
+		
+			#informes .main div.contenido div p
+				{
+					padding-left: 20px;
+				}
+		
+			#informes .main div.contenido div a
+				{
+					text-decoration: none;
+					color: #000;
+				}
+		
+			#informes .main div.contenido div a:hover
+				{
+					text-decoration: underline;
+					color: #00f;
+				}
+		
+
+		
+div.table
+	{
+		padding-left: 30px;
+	}
+	
+	div.table div.cell
+		{
+			display: block;
+			width: 100%;
+			margin-bottom: 15px;
+		}
+
+		div.table div.cell label
+			{
+				display: block;
+				margin-bottom: 5px;
+			}
+
+		div.table div.cell input[type='text'],
+		div.table div.cell select
+			{
+				padding: 7px 5px;
+				width: 50%;
+			}
+
+		div.table div.cell textarea
+			{
+				padding: 7px 5px;
+				width: 90%;
+				height: 200px;
+			}
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
