@@ -139,10 +139,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             text-align: center;
             display: flex;
             flex-direction: column;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Cambiar la tipografía */
+            font-size: 16px; /* Cambiar el tamaño de letra */
+            margin: 0 auto; /* Centrar horizontalmente */
+        }
+        
+        .spa h1 {
+            /* Aquí puedes agregar estilos específicos para h1 */
+            font-size: 70px; /* Por ejemplo, cambiar el tamaño de letra para h1 */
+            font-weight: bold; /* Añadir negrita */
+            color: #ffffff; /* Cambiar el color del texto */
+            margin-bottom: 10px; /* Añadir un margen inferior */
         }
         .centered {
             display: flex;
             justify-content: center;
+        }
+        .youtube-box {
+            width: 70%;
+            margin: 0 auto;
+        }
+        .youtube-box h1 {
+            text-align: center;
+            font-size: 70px; /* Por ejemplo, cambiar el tamaño de letra para h1 */
+            font-weight: bold; /* Añadir negrita */
+            color: #ffffff; /* Cambiar el color del texto */
+            margin-bottom: 10px; /* Añadir un margen inferior */
+        }
+        .youtube-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporción 16:9 */
+            overflow: hidden;
+            border: 4px solid white; /* Ancho y color del marco blanco */
+        }
+        .youtube-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
     
 </style>
@@ -365,8 +401,8 @@ height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
     <section class="promo home" data-headertype="slickslider">
         <div class="slider slider-for">
                 <div class="node-banner">
-                    <div class="banner-image hide-for-small-only dsk" style="background-image: url(images/CANO_BANNER.png)"></div>
-                        <div class="banner-image show-for-small-only mob" style="background-image: url(images/3ba)"></div>
+                    <div class="banner-image hide-for-small-only dsk" style="background-image: url(images/3BALLMTY_BANNER.png)"></div>
+                        <div class="banner-image show-for-small-only mob" style="background-image: url(images/3BALLMTY_BANNER_M.png)"></div>
                 </div>        
         </div>
     </section>
@@ -376,30 +412,40 @@ height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
             <article class="article-news">
                 <div class="article-content">
                         <div class="spa">
-                            <p>CANO AGUILAR</p>
+                            <h1>3BALLMTY</h1>
                             <br>
-                            <p>Cano Aguilar, cuyo verdadero nombre es Jesús Flores, es un cantante originario del estado de Durango, México.</p>
-                            <p>A lo largo de su trayectoria, Cano ha estado involucrado en varias agrupaciones del género regional mexicano, como Los Chendengueritos, Tamborazo Juancho Rey, etc.</p>
-                            <p>En el 2018, decidió seguir su sueño y convertirse en solista. Adoptó el nombre artístico Cano Aguilar y firmó con Latin Power Music.</p>
-                            <p>Su estilo musical se caracteriza por fusionar clásicos del pop y el rock con el género del regional mexicano.</p>
-                            <p>Su álbum más reciente, titulado “De Cantina en Cantina”, presenta 12 reversiones de canciones conocidas, como “Que Lloro” de Sin Bandera, adaptadas al estilo norteño y de banda.</p>
-                            <p></p>
+                            <p>3BallMTY, también conocido como Tribal Monterrey, es un grupo de disc-jockey pop y electrónico mexicano originario de Monterrey, Nuevo León.</p>
+                            <p>El nombre 3Ball proviene de la palabra “tribal”, que se refiere a la cultura de la música tribal guarachero, popular en muchos países de habla hispana alrededor del mundo.</p>
+                            <p>Este género fusiona elementos electrónicos con ritmos tradicionales y bailables, creando una mezcla única y contagiosa.</p>
+                            <p>Además de “Inténtalo”, otros temas reconocidos de 3BallMTY incluyen “Besos al aire”, “La noche es tuya”, “De las 12 a las 12”, y “Baile de amor”.</p>
                             <br>
-                            <p>Cano Aguilar se perfila como una de las promesas juveniles dentro del género regional mexicano, destacando por su talento, carisma y entusiasmo por hacer una exitosa carrera musical.</p>
+                            <p>Su energía y dominio de los ritmos han hecho que sean queridos por sus seguidores y que su música siga siendo popular en todo el continente latinoamericano.</p>
                                 <br>
                                 <br>
+                            <h1>ESCUCHA</h1>
                         </div>
                         <div class="centered">
-                            <div style="left: 0; width: 70%; height: 80px; position: relative;">
-                                <iframe src="https://open.spotify.com/embed/artist/4ZhDghRBMxjJplCuPD7QrK?utm_source=oembed" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture;"></iframe>
+                            <div style="left: 0; width: 70%; height: 750px; position: relative;">
+                                <iframe src="https://open.spotify.com/embed/artist/1MLs9allBZrajb5Dc4146L?utm_source=oembed" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture;"></iframe>
                             </div>
                         </div>
+                        <div class="youtube-box">
+                            <h1>VIDEOS</h1>
+                            <div class="youtube-container">
+                                <iframe src="https://www.youtube.com/embed/LRYNWfJzfVE?rel=0&cc_load_policy=1" allowfullscreen></iframe>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="youtube-container">
+                                <iframe src="https://www.youtube.com/embed/BjLKhuTu5ac?rel=0" allowfullscreen></iframe>
+                            </div>
+                        </div> 
                     </div>
             </article>
             <br>
             <br>
             <!--Agregar Youtube Iframe-->
-            
+                                  
         </div>
     </section>
 
