@@ -155,6 +155,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             display: flex;
             justify-content: center;
         }
+        .youtube-box {
+            width: 70%;
+            margin: 0 auto;
+        }
+        .youtube-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporción 16:9 */
+            overflow: hidden;
+            border: 4px solid white; /* Ancho y color del marco blanco */
+        }
+        .youtube-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
     
 </style>
 
@@ -408,11 +426,11 @@ height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
             <br>
             <br>
             <!--Agregar Youtube Iframe-->
-            <div class="centered">
-                <div style="left: 0; width: 70%; height: 0; position: relative; padding-bottom: 56.25%;">
-                    <iframe src="https://www.youtube.com/embed/LRYNWfJzfVE?rel=0&cc_load_policy=1" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe>
+            <div class="youtube-box">
+                <div class="youtube-container">
+                    <iframe src="https://www.youtube.com/embed/LRYNWfJzfVE?rel=0&cc_load_policy=1" allowfullscreen></iframe>
                 </div>
-            </div>            
+            </div>                       
         </div>
     </section>
 
