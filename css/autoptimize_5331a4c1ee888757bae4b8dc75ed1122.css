@@ -17433,7 +17433,7 @@ img {
 }
 
 .card-social {
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     flex-direction: row;
     align-items: center
@@ -18035,16 +18035,16 @@ img {
 }
 
 .page-home section.roster .view-content:before {
-    width: calc(100% - 112px);
-    height: 600px;
+    width: calc(100% - 0px);
+    height: 950px;
     background: url(../images/bg-ol.png)center top no-repeat;
     background-size: cover;
-    border: 16px solid #fff;
+    border: 20px solid #fff;
     content: "";
     position: absolute;
-    top: 40px;
-    left: 40px;
-    z-index: 0
+    top: 0;
+    left: 0px;
+    z-index: 0;
 }
 
 @media (max-width: 1023px) {
