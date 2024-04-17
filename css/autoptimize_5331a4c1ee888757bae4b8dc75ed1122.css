@@ -18036,7 +18036,7 @@ img {
 
 .page-home section.roster .view-content:before {
     width: calc(100% - 0px);
-    height: 950px;
+    height: 700px;
     background: url(../images/bg-ol.png)center top no-repeat;
     background-size: cover;
     border: 20px solid #fff;
