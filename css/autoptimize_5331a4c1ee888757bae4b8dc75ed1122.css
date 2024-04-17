@@ -17788,13 +17788,13 @@ img {
 
 @media (min-width: 1400px) {
     .page-home section.promo .slider .node-banner .banner-content .content .name-artist {
-        font-size:30px
+        font-size:80px
     }
 }
 
 @media (max-width: 1023px) {
     .page-home section.promo .slider .node-banner .banner-content .content .name-artist {
-        font-size:18px
+        font-size:40px
     }
 }
 
