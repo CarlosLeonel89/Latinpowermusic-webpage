@@ -17455,8 +17455,8 @@ img {
 
 @media (max-width: 1023px) {
     .card-social li svg {
-        width:14px;
-        height: 14px
+        width: 28px;
+        height: 28px
     }
 }
 
