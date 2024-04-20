@@ -8177,7 +8177,7 @@ h1, h2, h3, h4, h5,
 .img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  }
 
 .form-control {
   height: 40px;
