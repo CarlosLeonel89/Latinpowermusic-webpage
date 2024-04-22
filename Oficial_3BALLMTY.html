@@ -213,6 +213,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .card-social-artist a i {
             font-size: 40px; /* Cambia el tamaño de los iconos aquí */
         }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+          }
+          .container .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          .container .card i {
+            color: #fff;
+            font-size: 50px;
+          }
+          .container .card p.counter {
+            font-size: 60px;
+            margin: 5px;
+          }
+          .container .card p.label {
+            margin: 5px;
+          }
+          @media screen and (max-width: 600px) {
+            body {
+              background: #e63e6d;
+            }
+            .container {
+              flex-direction: column;
+            }
+            .card {
+              padding: 20px;
+            }
+        }
+            
     
 </style>
 
@@ -453,6 +488,47 @@ height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
                             <br>
                             <!--Seccion de estadistica-->
                             <h1>Estadisticas</h1>
+                            <br>
+                            <br>
+                            <div class="container">
+                                <div class="card">
+                                  <i class="fab fa-facebook"></i>
+                                  <p class="counter" name="youtube">0</p>
+                                  <p class="label">Facebook Followers</p>
+                                </div>
+                                <div class="card">
+                                  <i class="fab fa-instagram"></i>
+                                  <p class="counter" name="twitter">0</p>
+                                  <p class="label">Instagram Followers</p>
+                                </div>
+                                <div class="card">
+                                  <i class="fab fa-spotify"></i>
+                                  <p class="counter" name="instagram">0</p>
+                                  <p class="label">Spotify Escuchas Mensuales</p>
+                                </div>
+                              </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="container">
+                                <div class="card">
+                                  <i class="fab fa-x-twitter"></i>
+                                  <p class="counter" name="youtube">0</p>
+                                  <p class="label">X Followers</p>
+                                </div>
+                                <div class="card">
+                                  <i class="fab fa-tiktok"></i>
+                                  <p class="counter" name="twitter">0</p>
+                                  <p class="label">Twitter Followers</p>
+                                </div>
+                                <div class="card">
+                                  <i class="fab fa-youtube"></i>
+                                  <p class="counter" name="instagram">0</p>
+                                  <p class="label">Youtube Suscriptores</p>
+                                </div>
+                              </div>
+                            <br>
+                            <br>
                             <br>
                             
                             <!--Seccion de redes-->
