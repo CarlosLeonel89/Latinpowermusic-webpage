@@ -6947,7 +6947,7 @@ a[data-fn].fn:after {
     background-color: #eee
 }
 
-:root .has-very-dark-gray-background-color {
+:root .has-very-light-gray-background-color {
     background-color: #313131
 }
 
@@ -6955,7 +6955,7 @@ a[data-fn].fn:after {
     color: #eee
 }
 
-:root .has-very-dark-gray-color {
+:root .has-very-light-gray-color {
     color: #313131
 }
 
@@ -17016,7 +17016,7 @@ img {
     color: #fff
 }
 
-#site-header .toggle-container.dark-mode p,.btn:hover,.card-content .cta a:hover,.card-content .official a:hover,.newsletter-container .ae-cform-container .ae-cform-item-submit-button:hover,.page-tour #tour .my-city-link:hover,.page-tour #tour .track-link:hover {
+#site-header .toggle-container.light-mode p,.btn:hover,.card-content .cta a:hover,.card-content .official a:hover,.newsletter-container .ae-cform-container .ae-cform-item-submit-button:hover,.page-tour #tour .my-city-link:hover,.page-tour #tour .track-link:hover {
     color: #fff
 }
 
@@ -17105,7 +17105,7 @@ img {
     }
 }
 
-.newsletter-container .ae-cform-container .ae-cform-item-submit-button,.newsletter-container .ae-cform-container .ae-cform-select,body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-select {
+.newsletter-container .ae-cform-container .ae-cform-item-submit-button,.newsletter-container .ae-cform-container .ae-cform-select,body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-select {
     margin-bottom: 0
 }
 
@@ -17305,11 +17305,11 @@ img {
     }
 }
 
-#site-header .toggle-container.dark-mode .toggle-switch {
+#site-header .toggle-container.light-mode .toggle-switch {
     background: linear-gradient(180deg,#f49d33 0,#a1306c 100%)
 }
 
-#site-header .toggle-container.dark-mode .toggle-switch:before {
+#site-header .toggle-container.light-mode .toggle-switch:before {
     background: #000;
     right: 2px
 }
@@ -17460,7 +17460,7 @@ img {
     }
 }
 
-.card-social li a:hover,.page-home section#home-custom-html-section .social li a:hover,body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-optins-container #terms a {
+.card-social li a:hover,.page-home section#home-custom-html-section .social li a:hover,body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-optins-container #terms a {
     color: #f49d33
 }
 
@@ -18653,74 +18653,74 @@ img {
     line-height: 1.4
 }
 
-body.dark-mode,body.dark-mode.page-home section.roster {
+body.light-mode,body.light-mode.page-home section.roster {
     background-image: url(../images/bg-ripple-drk.jpg)
 }
 
-body.dark-mode .site-header {
+body.light-mode .site-header {
     background: #000
 }
 
-body.dark-mode .site-header .artist-logo a img {
+body.light-mode .site-header .artist-logo a img {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1)
 }
 
-body.dark-mode .site-header #menu-main a {
+body.light-mode .site-header #menu-main a {
     color: #fff;
     fill: #fff
 }
 
-body.dark-mode.page-home section.promo .slider .node-banner .banner-content .content .name-artist,body.dark-mode.single-post .article-container .breadcrumbs .current,body.dark-mode.single-post .article-container .breadcrumbs a:hover {
+body.light-mode.page-home section.promo .slider .node-banner .banner-content .content .name-artist,body.light-mode.single-post .article-container .breadcrumbs .current,body.light-mode.single-post .article-container .breadcrumbs a:hover {
     color: #f96d63
 }
 
-body.dark-mode.page-home section.promo .slider-nav .slick-current .slider-thumbnail:before,body.dark-mode.page-home section.promo .slider-nav .slider-thumbnail:hover:before {
+body.light-mode.page-home section.promo .slider-nav .slick-current .slider-thumbnail:before,body.light-mode.page-home section.promo .slider-nav .slider-thumbnail:hover:before {
     background: #f96d63;
     background: linear-gradient(to bottom,#f96d63 0,#a1306c 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F96D63",endColorstr="#A1306C",GradientType=0)
 }
 
-body.dark-mode .card-social li a:hover svg,body.dark-mode.page-home section.promo .slider-custom-container .cust-btns button:hover svg path {
+body.light-mode .card-social li a:hover svg,body.light-mode.page-home section.promo .slider-custom-container .cust-btns button:hover svg path {
     fill: #f96d63
 }
 
-body.dark-mode.page-home section.roster .view-content:before {
+body.light-mode.page-home section.roster .view-content:before {
     background: rgba(0,0,0,.6);
     -o-border-image: linear-gradient(to bottom,#e04179,#f49d33)1;
     border-image: linear-gradient(to bottom,#e04179,#f49d33)1
 }
 
-body.dark-mode.page-home section#home-custom-html-section {
+body.light-mode.page-home section#home-custom-html-section {
     background: linear-gradient(180deg,#e04179 0,#f49d33 100%)
 }
 
-body.dark-mode.page-home section#home-newsletter-section {
+body.light-mode.page-home section#home-newsletter-section {
     background-image: url(../images/bg-sub-drk.jpg);
     background-position: left -1px top -1px
 }
 
-body.dark-mode.page-home section#home-newsletter-section .newsletter-container {
+body.light-mode.page-home section#home-newsletter-section .newsletter-container {
     background: rgba(0,0,0,.6)
 }
 
-body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item label span:nth-child(2),body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item.cform-required-field span:nth-child(2) {
+body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item label span:nth-child(2),body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item.cform-required-field span:nth-child(2) {
     color: #f96d63
 }
 
-body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-country input,body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-country select,body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-email input,body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-email select {
+body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-country input,body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-country select,body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-email input,body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-email select {
     border-bottom-color: #f49d33
 }
 
-.newsletter-container .ae-cform-container body.dark-mode .ae-cform-item-submit-button:hover,.page-tour #tour body.dark-mode .my-city-link:hover,.page-tour #tour body.dark-mode .track-link:hover,body.dark-mode .btn:hover,body.dark-mode .card-content .cta a:after,body.dark-mode .card-content .cta a:hover,body.dark-mode .card-content .official a:after,body.dark-mode .card-content .official a:hover,body.dark-mode .newsletter-container .ae-cform-container .ae-cform-item-submit-button:hover,body.dark-mode .page-tour #tour .my-city-link:hover,body.dark-mode .page-tour #tour .track-link:hover,body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-submit-button input:hover {
+.newsletter-container .ae-cform-container body.light-mode .ae-cform-item-submit-button:hover,.page-tour #tour body.light-mode .my-city-link:hover,.page-tour #tour body.light-mode .track-link:hover,body.light-mode .btn:hover,body.light-mode .card-content .cta a:after,body.light-mode .card-content .cta a:hover,body.light-mode .card-content .official a:after,body.light-mode .card-content .official a:hover,body.light-mode .newsletter-container .ae-cform-container .ae-cform-item-submit-button:hover,body.light-mode .page-tour #tour .my-city-link:hover,body.light-mode .page-tour #tour .track-link:hover,body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-item-submit-button input:hover {
     background: linear-gradient(180deg,#f96d63 0,#a1306c 100%),linear-gradient(180deg,#eb7453 0,#e90eff 100%)
 }
 
-body.dark-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-select .select__arrow {
+body.light-mode.page-home section#home-newsletter-section .newsletter-container .ae-cform-container .ae-cform-select .select__arrow {
     border-color: #f49d33 transparent transparent
 }
 
-body.dark-mode .card-node:hover .card-content h3 {
+body.light-mode .card-node:hover .card-content h3 {
     background: linear-gradient(180deg,#f96d63 0,#a1306c 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -18728,14 +18728,14 @@ body.dark-mode .card-node:hover .card-content h3 {
     text-fill-color: transparent
 }
 
-body.dark-mode .card-content .cta a:hover,body.dark-mode .card-content .official a:hover {
+body.light-mode .card-content .cta a:hover,body.light-mode .card-content .official a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent
 }
 
-body.dark-mode .card-social li a:hover {
+body.light-mode .card-social li a:hover {
     color: #a1306c
 }
 
@@ -27023,7 +27023,7 @@ h2#ae-cform-title-1 {
     content: "\f5fb"
 }
 
-.mdi-theme-light-dark:before {
+.mdi-theme-light-light:before {
     content: "\f5fc"
 }
 
@@ -27767,11 +27767,11 @@ h2#ae-cform-title-1 {
     font-size: 48px
 }
 
-.mdi-dark {
+.mdi-light {
     color: rgba(0,0,0,.54)
 }
 
-.mdi-dark.mdi-inactive {
+.mdi-light.mdi-inactive {
     color: rgba(0,0,0,.26)
 }
 
