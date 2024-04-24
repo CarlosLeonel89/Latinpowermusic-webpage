@@ -213,6 +213,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .card-social-artist a i {
             font-size: 40px; /* Cambia el tamaño de los iconos aquí */
         }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+          }
+          .container .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          .container .card i {
+            color: #fff;
+            font-size: 50px;
+          }
+          .container .card p.counter {
+            font-size: 60px;
+            margin: 5px;
+          }
+          .container .card p.label {
+            margin: 5px;
+          }
+          @media screen and (max-width: 600px) {
+            body {
+              background: #e63e6d;
+            }
+            .container {
+              flex-direction: column;
+            }
+            .card {
+              padding: 20px;
+            }
+        }
+
     
 </style>
 
@@ -456,7 +490,48 @@ height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
                             <br>
                             <h2>Cano Aguilar forma parte de la familia Latin Power Music, donde seguramente dejará una huella imborrable con su estilo único y su interpretación magistral que fusiona lo mejor del regional mexicano.</h2>
                             <br>
+                            <br>
+                            <!--Seccion de estadistica-->
+                            <h1>Redes Sociales y Plataformas Digitales</h1>
+                            <br>
+                            <br>
+                            <div class="container">
+                                <div class="card">
+                                  <i class="fab fa-facebook"></i>
+                                  <p class="counter" name="facebook">851 K</p>
+                                  <p class="label">Facebook Followers</p>
+                                </div>
+                                <div class="card">
+                                  <i class="fab fa-instagram"></i>
+                                  <p class="counter" name="instagram">51.9 K</p>
+                                  <p class="label">Instagram Followers</p>
+                                </div>
+                                <div class="card">
+                                  <i class="fab fa-spotify"></i>
+                                  <p class="counter" name="spotify">1,452,164</p>
+                                  <p class="label">Spotify Escuchas Mensuales</p>
+                                </div>
+                                <div class="card">
+                                    <i class="fab fa-x-twitter"></i>
+                                    <p class="counter" name="twitter">163.5 K</p>
+                                    <p class="label">X Followers</p>
+                                  </div>
+                                  <div class="card">
+                                    <i class="fab fa-tiktok"></i>
+                                    <p class="counter" name="tiktok">215</p>
+                                    <p class="label">TikTok Followers</p>
+                                  </div>
+                                  <div class="card">
+                                    <i class="fab fa-youtube"></i>
+                                    <p class="counter" name="youtube">597 K</p>
+                                    <p class="label">Youtube Suscriptores</p>
+                                  </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
                             <h1>REDES</h1>
+                            <br>
                             <br>
                             <ul class="card-social-artist">
                                 <li><a href="https://www.facebook.com/canoaguilaroficial" target="_blank" title="visit facebook"><i class="fa-brands fa-facebook"></i></a></li>
@@ -480,6 +555,8 @@ height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
                             </div>
                         </div>
                         <div class="youtube-box">
+                            <br>
+                            <br>
                             <h1>VIDEOS</h1>
                             <div class="youtube-container">
                                 <iframe src="https://www.youtube.com/embed/nhGTKSvCAuk?rel=0" allowfullscreen></iframe>

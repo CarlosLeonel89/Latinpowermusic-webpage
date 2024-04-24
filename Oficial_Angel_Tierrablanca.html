@@ -213,6 +213,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .card-social-artist a i {
             font-size: 40px; /* Cambia el tamaño de los iconos aquí */
         }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+          }
+          .container .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          .container .card i {
+            color: #fff;
+            font-size: 50px;
+          }
+          .container .card p.counter {
+            font-size: 60px;
+            margin: 5px;
+          }
+          .container .card p.label {
+            margin: 5px;
+          }
+          @media screen and (max-width: 600px) {
+            body {
+              background: #e63e6d;
+            }
+            .container {
+              flex-direction: column;
+            }
+            .card {
+              padding: 20px;
+            }
+        }
     
 </style>
 
@@ -451,6 +485,45 @@ height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
                             <h2>NACIÓ EL 11 DE OCTUBRE DE 1995, ORIGINARIO DE CD. NEZAHUALCÓYOTL, ESTADO DE MÉXICO. DESDE NIÑO DESARROLLÓ SENSIBILIDAD Y UN GRAN GUSTO POR LA MÚSICA. INICIÓ EN EL ROCK Y HIP HOP, TOCÓ LA GUITARRA PARA LA BANDA DE SU SECUNDARIA, PERO FUE HASTA LOS 13 AÑOS QUE EN UN CAFÉ KARAOKE DE SU NATAL NEZAHUALCÓYOTL DESCUBRIÓ SU TALENTO PARA ALEGRAR AL PÚBLICO CON SU VOZ. ASÍ COMENZÓ A CANTAR EN SALONES DE FIESTAS Y REUNIONES CANCIONES DE PEDRITO FERNÁNDEZ Y DE MARIACHI, DESARROLLANDO SU GUSTO POR EL REGIONAL MEXICANO Y PARTICIPANDO EN CONCURSOS DE CANTO, HASTA TENER UNA PARTICIPACIÓN EN EL PROGRAMA "MUÉVETE" DE TELEVISA.</h2>
                             <br>
                             <h2>LO CUAL LO LLEVÓ A ADENTRARSE EN EL GÉNERO Y FUE HASTA QUE GANÓ EL CONCURSO DE TALENTOS EN SU PREPARATORIA, QUE DECIDIÓ DEDICAR TODA SU VIDA A LA MÚSICA Y A BUSCAR SU SUEÑO, GRABANDO COVERS PARA REDES SOCIALES CON MÁS DE 150,000 VISTAS EN YOUTUBE Y ARMANDO EL GRUPO QUE LO ACOMPAÑARÍA, TRABAJANDO EN TODO TIPO DE EVENTOS CON NORTEÑO BANDA Y SIERRREÑO, POSICIONÁNDOSE COMO UNO DE LOS MÁS CONOCIDOS DEL ESTADO DE MÉXICO Y CANTANDO EN BAILES CON GRANDES DEL GÉNERO. EN 2018 SE GRADUÓ COMO LICENCIADO EN DERECHO. Y EN 2019 COMENZÓ A FORMAR PARTE DE LAS FILAS DE LATÍN POWER MUSIC, Y HASTA LA FECHA SIGUE LUCHANDO POR UN LUGAR EN LA HISTORIA DE LA MÚSICA.</h2>
+                            <br>
+                            <br>
+                            <!--Seccion de estadistica-->
+                            <h1>Redes Sociales y Plataformas Digitales</h1>
+                            <br>
+                            <br>
+                            <div class="container">
+                                <div class="card">
+                                  <i class="fab fa-facebook"></i>
+                                  <p class="counter" name="facebook">851 K</p>
+                                  <p class="label">Facebook Followers</p>
+                                </div>
+                                <div class="card">
+                                  <i class="fab fa-instagram"></i>
+                                  <p class="counter" name="instagram">51.9 K</p>
+                                  <p class="label">Instagram Followers</p>
+                                </div>
+                                <div class="card">
+                                  <i class="fab fa-spotify"></i>
+                                  <p class="counter" name="spotify">1,452,164</p>
+                                  <p class="label">Spotify Escuchas Mensuales</p>
+                                </div>
+                                <div class="card">
+                                    <i class="fab fa-x-twitter"></i>
+                                    <p class="counter" name="twitter">163.5 K</p>
+                                    <p class="label">X Followers</p>
+                                  </div>
+                                  <div class="card">
+                                    <i class="fab fa-tiktok"></i>
+                                    <p class="counter" name="tiktok">215</p>
+                                    <p class="label">TikTok Followers</p>
+                                  </div>
+                                  <div class="card">
+                                    <i class="fab fa-youtube"></i>
+                                    <p class="counter" name="youtube">597 K</p>
+                                    <p class="label">Youtube Suscriptores</p>
+                                  </div>
+                            </div>
+                            <br>
                             <br>
                             <!--Actualziar Redes-->
                             <h1>REDES</h1>
