@@ -38712,7 +38712,7 @@ span.iti__dial-code {
     height: 80vh; /* Ajusta la altura según sea necesario */
 }
 iframe {
-    width: 800px; /* Cambia según sea necesario */
-    height: 600px; /* Cambia según sea necesario */
+    width: 100%; /* Cambia según sea necesario */
+    height: 80vh; /* Cambia según sea necesario */
     border: 0;
 }
