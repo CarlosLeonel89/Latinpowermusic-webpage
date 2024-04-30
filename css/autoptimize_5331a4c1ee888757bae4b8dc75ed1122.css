@@ -16842,7 +16842,7 @@ section.grand-royal-section-newsletter.newsletter-type-inline .newsletter-contai
 }
 
 body {
-    background: url(../images/bg-ripple.jpg)center top no-repeat fixed;
+    background: url(../images/background-3.png)center top no-repeat fixed;
     background-size: cover;
     text-rendering: optimizeLegibility!important;
     -webkit-font-smoothing: antialiased!important;
@@ -16875,7 +16875,7 @@ img {
 }
 
 #site-footer {
-    background: url(../images/bg-ripple.jpg)center right;
+    background: url(../images/background-3.png)center #963412;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17997,7 +17997,7 @@ img {
 
 .page-home section.roster {
     padding-top: 65px;
-    background: url(../images/bg-ripple.jpg)center top no-repeat;
+    background: url(../images/background-3.png)center top no-repeat;
     background-size: cover
 }
 
