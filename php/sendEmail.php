@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$to = 'carlos.najera.is@unipolidgo.edu.mx';
+$to = 'charly@latinpowermusic.mx';
 
 function url(){
   return sprintf(
